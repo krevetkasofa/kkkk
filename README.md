@@ -16,7 +16,8 @@ gedit script.bash
 ```
 
 3. В текстовом редакторе впишем:
-```if [ "$#" -eq 0 ]; then
+```
+   if [ "$#" -eq 0 ]; then
     echo "Usage: bash script.bash <First Name> <Last Name> ..."
     exit 1
    fi
